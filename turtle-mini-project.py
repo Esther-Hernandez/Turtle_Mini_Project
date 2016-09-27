@@ -24,7 +24,6 @@ def draw_art():
         brad.right(10)
         
     draw_line(brad.pos())
-
     window.exitonclick()
 
 def draw_triangle(my_turtle):
@@ -42,8 +41,5 @@ def draw_line(my_vector):
     tom.fillcolor("violet")
     tom.right(90)
     tom.forward(300)
-    
-
-        
-            
+           
 draw_art()
